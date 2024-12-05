@@ -4,9 +4,9 @@ import { Manrope } from 'next/font/google';
 import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
-  title: 'DataSmith',
-  description: 'A platform for generating synthetic data using AI',
-  metadataBase: new URL('https://datasmith.lycee.ai'),
+  title: 'Pulse',
+  description: 'A platform for AI-powered health coaching',
+  metadataBase: new URL('https://pulse.lycee.ai'),
 };
 
 export const viewport: Viewport = {
