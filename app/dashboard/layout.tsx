@@ -9,21 +9,14 @@ function Header() {
       <div className="mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
         <Link href="/" className="flex items-center">
           <CircleIcon className="h-6 w-6 text-blue-500" />
-          <span className="ml-2 text-xl font-semibold text-gray-900">DATASMITH</span>
+          <span className="ml-2 text-xl font-semibold text-gray-900">PULSE</span>
         </Link>
         <div className="flex items-center space-x-4">
           <Link
-            href="https://nebius.com/studio/inference?utm_medium=cpc&utm_source=crazyCoder&utm_campaign=Network_en_all_lgen_inference_cloud&utm_term=crazyCoder"
-            className="text-sm invisible md:visible font-medium text-gray-700 hover:text-gray-900"
-            target='_blank'
-          >
-            Built with ❤️ using Nebius
-          </Link>
-          <Link
-            href="/generate"
+            href="/chat"
             className="bg-black hover:bg-gray-800 text-white text-sm px-4 py-2 rounded-full"
           >
-            Generate
+            Get AI Coaching
           </Link>
         </div>
       </div>
